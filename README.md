@@ -13,6 +13,7 @@
     - [6.1. Configure as Variáveis de Ambiente](#61-configure-as-variáveis-de-ambiente)
     - [6.2. Inicie a Aplicação](#62-inicie-a-aplicação)
     - [6.3. Swagger UI](#63-swagger-ui)
+    - [6.4. Sepolia Testnet Explorer](#64-sepolia-testnet-explorer)
   - [7. Endpoints da API](#7-endpoints-da-api)
     - [7.1. Gerenciamento de Endereços](#71-gerenciamento-de-endereços)
     - [7.2. Validação de Transações](#72-validação-de-transações)
@@ -79,6 +80,9 @@ uvicorn app.app:app --reload
 
 ### 6.3. Swagger UI
 * O Swagger UI da aplicação pode ser acesso através da URL **http://127.0.0.1:8000/docs**
+
+### 6.4. Sepolia Testnet Explorer
+* A validação das transações podem ser realizadas através da URL **https://sepolia.etherscan.io/**
 
 ## 7. Endpoints da API
 ### 7.1. Gerenciamento de Endereços
