@@ -52,7 +52,7 @@ cd blockchain-core-service
 
 ### 5.3. Crie e Ative o Ambiente Virtual
 * **No Windows:**
-* 
+
 ```sh
 python -m venv venv
 .\venv\Scripts\activate
