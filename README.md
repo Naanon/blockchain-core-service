@@ -13,6 +13,7 @@
   - [6. Execução](#6-execução)
     - [6.1. Configure as Variáveis de Ambiente](#61-configure-as-variáveis-de-ambiente)
     - [6.2. Inicie a Aplicação](#62-inicie-a-aplicação)
+    - [6.3. Swagger UI](#63-swagger-ui)
   - [7. Endpoints da API](#7-endpoints-da-api)
     - [7.1. Gerenciamento de Endereços](#71-gerenciamento-de-endereços)
     - [7.2. Validação de Transações](#72-validação-de-transações)
