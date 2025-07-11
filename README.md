@@ -36,8 +36,7 @@ API RESTful desenvolvida em Python para interação com a rede blockchain Ethere
 
 ## 4. Pré-requisitos
 * **Python 3.8+**
-* **Git**
-* Uma conta em um serviço de nós, como **Infura** ou **Alchemy**. Para este projeto, foi utilizada a seguinte URL pública do Infura para a rede de testes Sepolia: `https://sepolia.infura.io/v3/42bff0d9dc884f93808b09d696b2b21a`.
+* Uma conta em um serviço de nós. Para este projeto, foi utilizada a seguinte URL pública do **Infura** para a rede de testes Sepolia: `https://sepolia.infura.io/v3/42bff0d9dc884f93808b09d696b2b21a`.
 
 ## 5. Instalação
 ### 5.1. Clone o Repositório
