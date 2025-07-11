@@ -1,5 +1,4 @@
 # Blockchain Core Service
-<img height="50" width="50" alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /> <img height="50" width="50" alt="FastAPI" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" /> <img height="50" width="50" alt="SQLAlchemy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg" /> <img height="50" width="50" alt="SQLite" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" />
 
   - [1. Descrição do Projeto](#1-descrição-do-projeto)
   - [2. Funcionalidades](#2-funcionalidades)
