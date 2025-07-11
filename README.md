@@ -13,7 +13,7 @@
     - [7.3. Envio de Transações](#73-envio-de-transações)
 
 ## 1. Descrição do Projeto
-API RESTful desenvolvida em Python para interação com a rede blockchain Ethereum. O serviço permite gerar e armazenar novas carteiras, validar transações de recebimento (identificando ETH ou tokens ERC-20) e criar transações de envio on-chain. Todo o histórico de operações é armazenado para consulta.
+API REST desenvolvida com Python para interação com a rede blockchain Ethereum. O projeto permite criar e armazenar novas carteiras, validar transações de recebimento (identificando ETH ou tokens ERC-20) e criar transações de envio on-chain. Todo o histórico de operações é armazenado para posterior consulta.
 
 ## 2. Funcionalidades
 * **Gerenciamento de Carteiras:** Geração de novos endereços Ethereum com armazenamento em um banco de dados local para uso futuro.
