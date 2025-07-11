@@ -41,44 +41,55 @@ API RESTful desenvolvida em Python para interação com a rede blockchain Ethere
 
 ## 5. Instalação
 ### 5.1. Clone o Repositório
-   ```sh
-   git clone https://github.com/Naanon/blockchain-core-service.git
-   ```
+```sh
+git clone https://github.com/Naanon/blockchain-core-service.git
+```
+
 ### 5.2. Acesse o Diretório do Projeto
-   ```sh
-   cd blockchain-core-service
-   ```
+```sh
+cd blockchain-core-service
+```
+
 ### 5.3. Crie e Ative o Ambiente Virtual
 * **No Windows:**
-   ```sh
-   python -m venv venv
-   .\venv\Scripts\activate
-   ```
+* 
+```sh
+python -m venv venv
+.\venv\Scripts\activate
+```
+
 * **No macOS / Linux:**
-   ```sh
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
+```sh
+python3 -m venv venv
+source venv/bin/activate
+```
+
 ### 5.4. Instale as Dependências
-   ```sh
-   pip install -r requirements.txt
-   ```
+```sh
+pip install -r requirements.txt
+```
 
 ## 6. Execução
 ### 6.1. Configuração das Variáveis de Ambiente
 * **Renomeie o arquivo .env.example situado na raiz do projeto para .env**
+
 ### 6.2. Inicie a Aplicação
-   ```sh
-   uvicorn app.app:app --reload
-   ```
+```sh
+uvicorn app.app:app --reload
+```
+
+### 6.3. Swagger UI
+* O Swagger UI da aplicação pode ser acesso através da URL **http://127.0.0.1:8000/docs**
 
 ## 7. Endpoints da API
 ### 7.1. Gerenciamento de Endereços
 * **POST /wallets:** Gera uma quantidade especificada de novos endereços.
 * **GET /wallets:** Consulta a lista de todos os endereços gerados.
+
 ### 7.2. Validação de Transações
 * **POST /transactions/validate:** Valida um hash de transação on-chain para gerar crédito.
 * **GET /transactions/history:** Consulta o histórico de transações de recebimento validadas.
+
 ### 7.3. Envio de Transações
 * **POST /transactions/send:** Cria e envia uma nova transação on-chain.
 * **GET /transactions/outgoing:** Consulta o histórico de transações de envio iniciadas pelo sistema.
