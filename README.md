@@ -56,7 +56,7 @@ cd blockchain-core-service
 
 ```sh
 python -m venv venv
-.env\Scriptsctivate
+.\venv\Scripts\activate
 ```
 
 * **On macOS / Linux:**
